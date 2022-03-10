@@ -6,3 +6,7 @@ Models to describe actually how computers interact to each other.
 Wire shark show the packetrs that are sent from your computer and back .
 
 Devices in computer network commmunicates using strictly defined rule and strictly defined protocols .
+
+
+computer network required when we want to receive and send some data we need to use some application.for ex google chrome appplication.Each aaplication usses one or several protocol .
+Protocols are basically standard of communication that allow to talk betweeen different devices .like SMTP(GMAIL),HTTPS(CHROME),FTP,SSH(UBUNTU).

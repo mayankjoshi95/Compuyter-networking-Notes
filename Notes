@@ -10,3 +10,15 @@ Devices in computer network commmunicates using strictly defined rule and strict
 
 computer network required when we want to receive and send some data we need to use some application.for ex google chrome appplication.Each aaplication usses one or several protocol .
 Protocols are basically standard of communication that allow to talk betweeen different devices .like SMTP(GMAIL),HTTPS(CHROME),FTP,SSH(UBUNTU).
+
+
+TCP/IP MODEL(TRANSMISION CONTR4OL PROTOTCOL AND INTERENET PROTOTCOL .
+
+MODEL ONLY DESCRIBE HOW DEVICES COMMUNICATE IN A NETWORK .
+ON OTHER SIDE SIDE THERE ARE DIFFERENT STANDARD THAT DESCRIBE COMMUNCATION.
+
+TCP/IP HAS 4 DIFFERENT LAYER 
+1. APPLICATION
+2.TRANSPORT (TCP belongs to this layer)
+3.INTERNET (IP belongs to this layer )
+4.NETWORK ACCESS.

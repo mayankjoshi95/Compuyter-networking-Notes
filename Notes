@@ -30,3 +30,21 @@ RESPOSIBILITTIES TO SEND DATA OVER THE PHYSICAL MEDIA )(THERE CAN BE DIFFERENT T
 ALL LAYERS ARE INDEPENDENT .
 
 COMPUTER COMMUNCATE USING DIFFERENT PROTOCOL ON DIFFERNT LAYERS .
+
+
+OSI MODELS(OPEN SYSTEM INTERCONNECTION)(IT IS BETTER FOR UNDERSTANDING )
+IT HAS 7 DIFFERENT LAYER.
+1.APPLICATION LAYER (GOOGLE CHROME,WHATSAPP)
+2.Presentation :-Resposible for translation,encryption,and data compression for the application layer .
+3.Session layer(for session adn establishment and termination)
+4.transport layer (for data transmission over network using TCP/UDP)
+5 Network layer :(this layer is resposible for selection of best path from source3 to destination and actual routing of the data from source to destination )
+6 Data link layer :this layer is resposible for communication with physical layer dealing with some eror that may occur during commucnation between different devices via
+some physical media 
+these data link layer ahs two subl;ayer 
+1.Media AcCESS Control 
+2.Logical Link layer .
+7 transmission over different physical media .
+
+
+

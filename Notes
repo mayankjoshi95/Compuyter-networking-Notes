@@ -93,9 +93,19 @@ Difference between cooper cable fiber and wireless media.
 
 Data link layer is same for all but physical layer could be different for different cases .We can use media as copper ,fiber or wireless.
 
+Copper cable consist of 8 different wires these are combined into 4 pairs 
+Also copper cables has connector on two end and the standard for those connector is here it is RJ45
+using Fiber cable we can transmit data using actual light .
+1 stands for presence of light in the wire and 0 stands for absence of light in the wire .
+Uisng single mode we can transmit data at higher rates and at longer distances than multimode.
 
 
+Fiber are expensive .
 
 
+wireless media IEEE.802.11 A, AC,N THAT DEFIENS WIRELESS COMMUNICATION.
 
+1.IT can lead to interference leads to unreconizable signal.
+2. its distacnes are limited .
 
+upper layer doesnot know about the type of media that is being used .

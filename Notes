@@ -84,4 +84,18 @@ ETHERNET
 
 In tcp/ip model in transport layer we are using TCP protocol adn in the network layer we are using IP protocol.
 
+##It is not just single protocol it is a set of different protocol that define communcation between different devices on data link and physical layer like IEEE 802.3 THAT DEFINE 
+COMMUNCATION BETWEEN DEVICES IF THE MEDIA IS WIRED 
+AND IEEE 802.11 DEFINES COMMUNICATION BETWEEN DEVICES IF MEDIA IS WIRELESS.
+
+
+Difference between cooper cable fiber and wireless media.
+
+Data link layer is same for all but physical layer could be different for different cases .We can use media as copper ,fiber or wireless.
+
+
+
+
+
+
 

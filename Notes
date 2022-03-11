@@ -120,4 +120,12 @@ This MAC address is built in every hardware.Every MAC adress must be unique in t
 
 In the same network devices must have different MAC address.In order to communicate with different MAC address.
 
+MAC address is data link address.Such hardware addresses are required for correct commmunication via copper cable, fibre or wireless.
+
+
+Each MAC Address consist of 48 bits or 6 octets .
+
+there are two different sections in every MAC address  OUI (organizationally unique identifier) and NIC(Network Interface Controller specific )
+
+
 

@@ -116,8 +116,8 @@ Every network interface card has built in hardware address ccalled MAC address.
 
 MAC stands for media access control address
 
+This MAC address is built in every hardware.Every MAC adress must be unique in the world.
 
-
-
+In the same network devices must have different MAC address.In order to communicate with different MAC address.
 
 

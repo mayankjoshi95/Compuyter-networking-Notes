@@ -186,6 +186,22 @@ Thus the frame is send to all the computer then the computer will compare there 
 3 Now it will not send the data to other as it know where is the sources and destination is .
 
 
+FRAME OF THE ETHERNET 
+
+Preamble 7bytes(in conjuction with SFD)
+Start of Frame Delimiter (used for synchronization of sender and receiver )
+Destiantion MAC address(Every frame start with destination MAC address)(6 bytes )
+Source MAC address(6 bytes long)
+VLAN TAG(4 BYTES)
+TYPE(2 BYTES)WHICH TYPE OF PROTOCOL IS ENCALSULATED NEXT LIKE IPv4 or6
+data payload (42 to 1500 bytes)(it has network layer or transport layer header inside )
+CRC(FCS)
+except preamble every thing is taken using one way hash function ev ery device calculates trailer and if frame is modified receiver after creation of checksum matches to theat 
+of the received check sum will see that check sum donot matches it will discard such frame .
+total frame length is from 64 bytes to 1522 bytes.
+
+
+
 
 
 

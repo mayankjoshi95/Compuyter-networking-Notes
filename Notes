@@ -156,8 +156,9 @@ time required to send data from one device to another and back .
 RTT lower than 300 ms is almost unnoticable 
 
 JITTER
-
+It tellls how latency differs overtime for different packets.
 Different packets have different delay i.e latency leaads to sending of packet in order 1,2 ,3 and 3,1,2.
 If jiter is very high sometimes some packets will be discarded or lost by the receiver .
 I fjittter is very large communication is difficult .
 if network comdition are stable then jitter is less.
+

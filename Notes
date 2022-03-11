@@ -162,3 +162,32 @@ If jiter is very high sometimes some packets will be discarded or lost by the re
 I fjittter is very large communication is difficult .
 if network comdition are stable then jitter is less.
 
+
+Switches and Data link layer
+
+
+Network Switch 
+
+it operates on physical or data link layer 
+It interconnect different devices using cooper and fiber link layer .
+It doesnot work on application ,transport and Network layer.
+There are two types of port end user DOS ports and several uplink ports to connectionto switches 
+
+How different computer will communicate with each other via switch .\
+Every computer has its own unique MAC address
+  Gi0/1:- 0 is number of slots in the switch and 1 is the port .
+
+
+
+HOW DOES IT WORK 
+1:- Lets say we have a MAC address at Gi0/1 port and Gi0/2 and Gi0/3 are empty in such case frame is send to every where except the port where it is rece3ived from.
+Thus the frame is send to all the computer then the computer will compare there MAC address with destination MAC address.
+2. Now if Gi0/2 wants to send the data from Gi0/1 then we can place the MAC adress of Gi0/2 then send the data back to Gi0/1.
+3 Now it will not send the data to other as it know where is the sources and destination is .
+
+
+
+
+
+
+

@@ -109,3 +109,13 @@ wireless media IEEE.802.11 A, AC,N THAT DEFIENS WIRELESS COMMUNICATION.
 2. its distacnes are limited .
 
 upper layer doesnot know about the type of media that is being used .
+
+If specific devices wants to to connect to other devices it must have specific controller such controller are called network interface card(controller). 
+
+Every network interface card has built in hardware address ccalled MAC address.
+
+
+
+
+
+

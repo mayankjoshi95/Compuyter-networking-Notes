@@ -186,13 +186,13 @@ Thus the frame is send to all the computer then the computer will compare there 
 3 Now it will not send the data to other as it know where is the sources and destination is .
 
 
-FRAME OF THE ETHERNET 
+FRAME OF THE ETHERNET defined in th IEEE802.3 address.
 
 Preamble 7bytes(in conjuction with SFD)
 Start of Frame Delimiter (used for synchronization of sender and receiver )
 Destiantion MAC address(Every frame start with destination MAC address)(6 bytes )
 Source MAC address(6 bytes long)
-VLAN TAG(4 BYTES)
+VLAN TAG(4 BYTES)(if present data pay;lod is 42 byte minimum else it is 46 bytes .
 TYPE(2 BYTES)WHICH TYPE OF PROTOCOL IS ENCALSULATED NEXT LIKE IPv4 or6
 data payload (42 to 1500 bytes)(it has network layer or transport layer header inside )
 CRC(FCS)
@@ -201,6 +201,36 @@ of the received check sum will see that check sum donot matches it will discard 
 total frame length is from 64 bytes to 1522 bytes.
 
 
+TYPES OF COMMMUNICATION 
+
+UNICAST:When the specific device wants to send data to other single device i.e when i want to talk to other single person I use unicast.It is used by devices like
+phone,laptop and soon.
+MULTICAST:when the specific device wants to send data to specific group of other devices  
+BROADCAST:When single device communicate with other devices .It consist of all 1's in binary format .
+
+types of MAC addresses
+1.UNICAST
+2.MULTICAST
+3.BROADCAST IT IS USED AS DESTINATION MAC address in the frame when some devices wants to send frame to all the devices in the same switched network adn switchesw will forward such frames to all ports
+
+
+HALF DUPLEX AND FULL DUPLEX
+FULL DUPLEX: WHEN TWO DEVICES ARE ABLE TO SEND AND RECEIVE DATA BETWEEN EACH OTHER SIMULTANEOUSLY.
+HAL DUPLEX:DATA COULD BE TRANSMITTED ONLY IN ONE DIRECTION AT ANY MOMENT OF TIME 
+
+
+HALF DUPLEX COLLISION :
+
+COLLISION OCCURS WHEN DATA ON TEH SAME PHYSICAL MEDIAA IS TRANSMITTED BY DIFFERENT DEVICES SIMULATANEOUSLY .
+
+CSMA/CD and CSMA/CA are defined for handling collision.
+
+Collision DOMAIN
+
+HUBS create large collision domain.
+CSMA/CD  can detect collision at every computer and hadle it .
+Switch work on physical and data link layer of TCP/IP model and it processes frames
+Here collision will not effect other parts.
 
 
 

@@ -237,3 +237,29 @@ Here collision will not effect other parts.
 TRY TO AVOID HALF DUPLEX SETTING .
 
 
+DHCP has source as unique adddresss but the destination is broadcast 
+
+
+
+Network Layer subsection:
+
+Switched network disadvantage 
+
+Switch has large table for MAXC adress
+
+1. Switch sends frames with destination broadcast 
+leads to broadcast storm .
+2.large MAC addresss table 
+
+Switched network is not a good solution for large network.
+
+
+for very large network like internet then ofcourse other solution should be used .
+
+
+Interact between different network we use Router 
+
+
+
+
+

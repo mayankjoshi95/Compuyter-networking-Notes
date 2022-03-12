@@ -396,4 +396,7 @@ disadvantage
 IPv4 packet structure 
 there are minimum 5 32 bits section
 1.1Version
-1.2IHL(internet header length((min lenght 16 bits.
+1.2IHL(internet header length((min lenght 16 bits)(5 vaue means we have 5 32 bits length in packet header).
+1.3 DSCP(differentiated services code point)(we can prioritize some packets)
+1.4 ECN(explicit congestion motification)
+1.5 Total length (total length of IPv4 packets)

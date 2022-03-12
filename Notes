@@ -323,5 +323,29 @@ Using this IP address you could verify whether network stack actually operate on
 Also using this IP adress you could connect to any services that are running locally on local host
 
 
+Difference between private and public Ip addresses
+
+Private Ip addresses are addresese that are not routable in global internet network 
+
+
+That means routers of internet providers will simply drop any IP packets that is from private Ip adddresses range .
+
+
+thus if any device wants to connect to to the internet with the private Ip address it will not be able to connect but if the router share the packet with public IP addresses it will be able to connect .
+
+
+But if a private network has same IP address in other place the two private network can connect with each other .
+
+**So to connect to internet by different devices with private  IP adderess that are non routable in global internet .This is done by NAT (Network address translation)
+It helps provide access to the Internet for devices with private IP addresses .
+
+
+
+NETWORK 
+
+
+EVERY SINGLE DEVICE IN INTERNET MUST BELONG AND BELONGS TO SPECIFIC NETWORK .
+NETWORK IS A LOGICAL GROUP OF DEVICES AND DEVICES CAN EASILY COMMUNIATE BETWEEN EACH OTHER VIA SWITCHES.
+
 
 

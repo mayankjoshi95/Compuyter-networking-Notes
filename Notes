@@ -406,7 +406,13 @@ there are minimum 5 32 bits section
 3.1 time to live:to prevent infintite loop of packets .when ttl field become zero than router discards such packet and basically every router when it receives specific 
 IP packet it decrement TTL field by 1 and send packet to next router .
 3.2 Protocol:it is link to upper layer protocol used inside IPv4 packets.
-3.3 header check sum(it is calculated only from IPv4 header)
+3.3 header check sum(it is calculated only from IPv4 header)(it doesnot include data or payload )
 every router receive IPv4 packet need to calculate header check sum when it decremnt ttl .
+
+
+Source address
+Destination address
+options 
+data payload it can contain TCP/UDP header.
 
 

@@ -285,7 +285,17 @@ largest decimal number is 255.
 
 Total quantity of IPv4 ADDRESS IS AROUND 3 BILLION.
 
+IT is not very large not enough to assign IP adress to all device in the world .
+MAC address may be from different manufactures and may not impact communication between devices .
+But IP ADDRESS MUST BE FROM THE SAME LOGICAL NETWORK LIKE 172.17.5.1 DEVICE1, 172.17.5.12 DEVICE 2,172.17.5.13 DEVICE 3.
 
+
+
+TYPES OF IP ADDRESS
+
+1.UNICAST: ASSIGNED TO SPECIFIC DEVICE IN THE NETWORK FOR ONE TO ONE COMMUNICATION 
+2. MULTICAST :SPECFIC DEVICE WANTS TO SEND DATA PACKETS TO MULTIPLE DEVICES 
+3.BROADCAST: ALL PALCES 255.255.255.255
 
 
 

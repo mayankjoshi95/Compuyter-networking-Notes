@@ -304,3 +304,12 @@ Router does need information about otehr network where these computer are alloca
 For incoming router perform decdapsulation till network layer
 for outgoing it perform encapsulation .
 Routert find optimal path and route packets 
+
+
+LAN :set of devices and interconnections under  common administration typically located in the same geographical area 
+WAN: covers largfe  geographical area and consiost of multiple LANs
+
+
+
+
+

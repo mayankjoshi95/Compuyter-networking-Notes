@@ -304,12 +304,14 @@ Router does need information about otehr network where these computer are alloca
 For incoming router perform decdapsulation till network layer
 for outgoing it perform encapsulation .
 Routert find optimal path and route packets 
-
+Its responsibility is to first find optimal path between routing network 
+then route actual packets to there destination.
 
 LAN :set of devices and interconnections under  common administration typically located in the same geographical area 
 WAN: covers largfe  geographical area and consiost of multiple LANs
 
 
-
+IP addreses classes 
+A(1.0.0.0 TO 126.255.255.255),B(128.0.0.0 TO 191.255.255.255 ),C(192.0.0.0 TO 223.255.255.255),D(224.0.0.0 TO 239.255.255.255)(USED FOR MULTICAST FOR VIDEO AUDIO STREAM),E(240.0.0.0 TO 254.255.255.255)(RESERVED FOR FUTUTRE USE)..
 
 

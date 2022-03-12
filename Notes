@@ -315,3 +315,13 @@ IP addreses classes
 A(1.0.0.0 TO 126.255.255.255)(FIRST OCTET(0XXXXXXX)),B(128.0.0.0 TO 191.255.255.255 )(10XXXXXX),C(192.0.0.0 TO 223.255.255.255)(10XXXXXX),D(224.0.0.0 TO 239.255.255.255)(USED FOR MULTICAST FOR VIDEO AUDIO STREAM)(1110XXXX),E(240.0.0.0 TO 254.255.255.255)(RESERVED FOR FUTUTRE USE)(11110XXX)..
 
 
+LOCAL HOST IP ADDRESS or loop back ip address.
+
+
+IT IS 127.0.0.1
+Using this IP address you could verify whether network stack actually operate on specific device or not .
+Also using this IP adress you could connect to any services that are running locally on local host
+
+
+
+

@@ -303,3 +303,4 @@ Thus ports of router has ports these have Ip addresses adn MAC addresses.
 Router does need information about otehr network where these computer are allocated which is located behind a routere.
 For incoming router perform decdapsulation till network layer
 for outgoing it perform encapsulation .
+Routert find optimal path and route packets 

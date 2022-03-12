@@ -446,3 +446,41 @@ BELONGS TO THE SAME NETWORK
 BUT 192.168.20.12 BELONGS TO THE DIFFERENT NETWORK .
 
 FOR SIMPLE EXAMPLE JUST  DO AND OPERATION BETWEEN HOST IP ADDRESS ADND NETWORK MASK .
+
+
+HOW MANY HOSTS IN THE SAME NETWORK  ?
+130.18.31.0/24
+Consider quantity of host bits:8 
+network address:130.18.31.0
+broadcast address130.18.31.255
+available IP address2^8-2=254
+
+
+
+
+SUBNETTING 
+
+IT ALLOWS YOU TO JUST NOT USE THE DEFAULT MASK I.E /8,/16,/24.
+
+IT HELPS TO DECRESE THE QUANTITY OF HOST IN EVERY NETWORK 
+OPTIMIZE USAGE OF PUBLIC IPv4
+
+it is a process of creating multiple subnetwork from the same single network .
+from the host parts we could create additional subnets 
+thus we could split the single network to the multiple network called subnetwork 
+This process uses several host bit and ads them to network parts 
+
+it helps to decrese the quantity of host in the network 
+using subnetting we increse quantity of the available network but with fewer host in each .
+
+
+WE can create maximum four subnet when we borrow two bits 
+
+
+
+
+
+
+
+
+

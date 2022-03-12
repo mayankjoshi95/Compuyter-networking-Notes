@@ -259,6 +259,12 @@ for very large network like internet then ofcourse other solution should be used
 
 Interact between different network we use Router 
 
+IP address
+It is the logical address that is assigned to the device in the network layer of the TCP/IP model .
+If a device want to communicate with other device it must have IP address assigend to it .
+
+MAC address:-Hardware address assigned by the maufacturer ot the network interface card at the data link layer They are represented using hexadecimal character .
+Ip address:-It is a logical address assigned to the devices usually bby the DHCP server on network layer of TCP/IP model and Ip adddress is done using Decimal character.
 
 
 

@@ -353,8 +353,10 @@ WHERE HOST PART END AND NETWORK PART BEGIN IS DEFINED BY THE NETWORK MASK.
 FOR EX (10.0.0.0/8) IS HERE FIRST 8 BITS ARE NETWORK PARTS AND REMAINING 24 PARTS IS HOST PARTS .
 
 IP ADRESSING AND IP PACKETS 
-
-1 CLASSA  network(10.0.0.0 -10.255.255.255)(it is private network )(network is actually 10.0.0.0/8)
+PRIVATE IP ADRESS RANGES
+1 CLASSA  network(10.0.0.0 -10.255.255.255)(it is private network )(network is actually 10.0.0.0/8)(LAN)
 16 classB networks (172.16.0.0 -172.31.255.255)(it is private network )(network is actually 172.16.0.0/16)
 256 classC networks(192.168.0.0-192.168.255.255)(it is private network )(network is actually 192.168.1.0/24) 
+
+PUBLIC IP ADDRESS RANGES 
 

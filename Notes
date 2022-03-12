@@ -387,4 +387,13 @@ THESE CHANGE SPERIODICALLY
 3.DDNS (Dynamic DNS)could be used for automatic inforamtion update after each Ip address change .
 
 
+disadvantage
+1. Ip address may change .
+2.we requiree to setup DHCP server to obtain an IP address.
 
+
+
+IPv4 packet structure 
+there are minimum 5 32 bits section
+1.1Version
+1.2IHL(internet header length((min lenght 16 bits.

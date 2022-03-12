@@ -266,6 +266,25 @@ If a device want to communicate with other device it must have IP address assige
 MAC address:-Hardware address assigned by the maufacturer ot the network interface card at the data link layer They are represented using hexadecimal character .
 Ip address:-It is a logical address assigned to the devices usually bby the DHCP server on network layer of TCP/IP model and Ip adddress is done using Decimal character.
 
+Ip address may change but MAC donot change .
+
+IPv4 and IPv6 
+
+
+Both are logical address of the device in the network layer 
+IPv4 uses decimal( 4 different section) 
+IPv6 uses hexadecimal(128 bits)(8 different section)
+
+
+IPv4 address format 
+
+4 octet and each octet =8 bit.
+every octet is represented using decimal number 
+lowest decimal number we can see in octet is 0.
+largest decimal number is 255.
+
+
+
 
 
 

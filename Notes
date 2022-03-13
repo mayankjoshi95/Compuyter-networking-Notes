@@ -538,5 +538,5 @@ Now how to send to the other Ip address that is where default gateway router com
 In this case it will send its IP packets dedicated to this server to default router .On data link layer
 
 
-t
+**TCP/UDP 
 

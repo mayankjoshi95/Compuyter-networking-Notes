@@ -609,3 +609,5 @@ DIFFERENT PORT RANGES
  1.  Well known  or system Ports 1-1023
  2.1024-49151 Registered Ports (Registered by IANA)
  3.49152-65535  Dynamic or Private Ports (can't registered by IANA)
+HTTPS,HTTP,SSH,IMAPS,SMTPS  use port number from this range 
+

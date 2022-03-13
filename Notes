@@ -522,11 +522,19 @@ WHEN ONE DEVICE WANTS TO HAVE MAC ADDRESS OF OTHER DEVICE IT SEND ARP REQUEST ( 
 DEVICES INSIDE THE ETHERNET HEADER AFTER STRIPING THEY WIL FIND THE ARP REQUEST THEY WILL FIND WHAT IS THE MAC ADDRESSOF HOST WITH IP ADDRESS AS 172.16.1.7.
 nOW THEY COMPARE IT AND THEN SEND ARP RESPONSEIS SEND UNICAST FROM ONE HOST TO OTHER .
 
-IN ARP RESPONSE IN THE ETHERNET HEADER WILL HAVE SOURCE MAC ADDRESS BE EQUAL TO THE DEVICE WE WANT TO SEND . 
+IN ARP RESPONSE IN THE ETHERNET HEADER WILL HAVE SOURCE MAC ADDRESS BE EQUAL TO THE DEVICE WE WANT TO SEND AND THE OTHER DEVICE MAC ADDRESS EQUAL TO OTHER DEVICE MAC ADDRESS.
+
+NOW the computer know where we need to send to .
+
+
+
+Consider Ip adress 172.16.1.5wants to send some data to computer with IP address 8.8.8.8(IP address of google DNS server )This se3rver is placed somewherre behind default router .
+It is located in other network somewhere in Internet .ARP request can't be sent as server is in the different.
+tio tell if the host is the same network it is done using ANDing of network Ip and network mask we get network prefix  and again apply network mask to the IP of google 
+then we get that network prefix are different .Tus target host is located in the different subnetwork .
 
 
 
 
-
-
+t
 

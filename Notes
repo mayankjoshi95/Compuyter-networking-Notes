@@ -712,5 +712,9 @@ there is no state like established or listen stste for UDP socket .
 
 
 
-
+UDP header contain
+1 Source port 
+2 Destination Port 
+3 Length 
+4 Checksum 
 

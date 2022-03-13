@@ -481,6 +481,23 @@ Largest subnet mask is 30 as after that there is no usable Ip address.
 
 
 
+ARP AND ICMP 
+
+THESE ARE SUPPPORTINBG PROTOTCOL AND THEY ARE USED AS SUPPORTING DATA .
+
+Default gateway(router)
+
+Router act as gateway to internet for the devices in the network .
+Default router is used for connection to other network .
+all packets to other network are sent using the router .
+
+default router LAN IP is dame as the IP of various devices in the network .
+
+
+Now the question is how devices connect with each other in the same network and if they want to send data they need to use router and how these default gateway workl in such case.
+
+
+
 
 
 

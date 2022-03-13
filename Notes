@@ -477,7 +477,7 @@ using subnetting we increse quantity of the available network but with fewer hos
 WE can create maximum four subnet when we borrow two bits 
 
 
-
+Largest subnet mask is 30 as after that there is no usable Ip address.
 
 
 

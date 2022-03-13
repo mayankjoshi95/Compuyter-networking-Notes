@@ -606,8 +606,20 @@ DIFFERENT PORT RANGES
  using 16 bit we can create many port combination number .
  
  There are three ranges
- 1.  Well known  or system Ports 1-1023
- 2.1024-49151 Registered Ports (Registered by IANA)
+ 1.  Well known  or system Ports 1-1023HTTPS,HTTP,SSH,IMAPS,SMTPS  use port number from this range 
+ 2.1024-49151 Registered Ports (Registered by IANA)suppose we create some custom applicationor custom prototcol or application we could use range 
  3.49152-65535  Dynamic or Private Ports (can't registered by IANA)
-HTTPS,HTTP,SSH,IMAPS,SMTPS  use port number from this range 
+
+
+when client intitate connection to remote server is not allowed to select number from the well known port range .
+
+Network Socket are host end point that is used for outgoing and incopming data and it consist of 5 field and on every server and client network socket must be present if 
+they want to proces some data and send the up to application layer of TCP/IP model.
+
+They have 5 parts 
+1.Transport protocol
+2.source IP address
+3.Source Port
+4.Destination IP address
+5.Destination Port
 

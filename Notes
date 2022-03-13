@@ -534,6 +534,8 @@ tio tell if the host is the same network it is done using ANDing of network Ip a
 then we get that network prefix are different .Tus target host is located in the different subnetwork .
 
 
+Now how to send to the other Ip address that is where default gateway router comes in ?
+In this case it will send its IP packets dedicated to this server to default router .On data link layer
 
 
 t

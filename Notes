@@ -542,7 +542,7 @@ In this case it will send its IP packets dedicated to this server to default rou
 
 TRANSPORT LAYER
 
-ABOVE IT IS APPLICATION LAYER ON IT THERE COULD BE DIFFERENT APPLICATION LIKE (HTTPS,HTTP,SSG,IMAP,SMTP) and on every single host different can run simultaneously.
+ABOVE IT IS APPLICATION LAYER ON IT THERE COULD BE DIFFERENT APPLICATION LIKE (HTTPS,HTTP,SSH,IMAPS,SMTP) and on every single host different can run simultaneously.
 and they communicate with transport layer and transport layer communcicate with other layer .
 
 Thus all those application needs to somehowuse transport layer .
@@ -570,4 +570,27 @@ When connection is established client server can send data to each other .
 Transport layer connection 
 
 Every connection between client and server at the transport layer is estabilished between two port - source port and destination port .
+
+When connection is estabilished client send packets from source port to destination port  and server when it wants to send data then it uses source port and send data to the destinatioon port at the client
+side.
+
+
+There are differnet applications and different application uses different protocol.
+for example such as google firefox use HTTPS,HTTP protocol to retrieve data from the remote server .
+When we load any single web page there may be multiple conneciton to different remote servers in order to get different pieces of the same web page .
+
+SSH: we could open remote terminal session and manage remote servers.
+IMAPS or SMTPS secure used if you want to send or receive some email.
+THIS SERVER HELPS US DISTINGUISH WHICH DATA BELONSGS TO WHICH SERVER .THIS IS DONE WITH THE USE OF PORTS .AS THESE PROTOCOL HAVE DIFFERENT PORTS .(HTTPS(443),HTTP(80
+),SSH(22),IMAPS(993),SMTP(465))
+
+
+
+
+
+
+
+
+
+
 

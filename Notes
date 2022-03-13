@@ -643,10 +643,19 @@ BECAUSE SERVER MIGHT HAVE MULTIPLE NETWORK CONNECTIONS ,MULTIPLE NETWORK INTERFA
 UDP * * 8.8.8.8 53 IT IS A WEL KNOWN PORT RESERVED BY DNS PROTOCOL
 
 MULTIPLE SOCKET 
-In this case intital connection is made to wild card socket and state of the socket on the server is listened and server will create new additional socket with exact source IP address and exact port 
+for  1 st device In this case intital connection is made to wild card socket and state of the socket on the server is listened and server will create new additional socket with exact source IP address and exact port 
+After that in this seperate socket TCP client wil establishes connection and afterwartds when tcp connection is established the clint adn server will exchancge data over this particular socket .and 
+ofcourse in client there will be new socket created and there source and destiantion ports will be reversed .
 
+for 2nd device same as first device.
 
+But now serrver will see that we have to send the data depending on pair of IP address and port for evfery single socket 
 
+Now consider adevice that wants to make several connection to the same server 
+ 
+ Now there will be DIFFERENT PORT WILL BE USED WIHT SAME IP ADDRESS TO CONNECT TO A SERVER.
 
+NOW HTE SEWRVER WILL HAVE 3 DIFFERENT SOCKETS 
+WILD CARD FOR DIFFEERENT PORT .THUS IT WILLL KNOEW WHICH SOCKET TO USE WHEN THE DATA COMES FROM WHICH SOCKET .
 
 

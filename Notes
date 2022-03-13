@@ -561,7 +561,13 @@ BUT OFCOURSE THOSE SERVER IN INTERNET INITIATE OTHER CONNNECTION .IN THOSE CASES
 FOR EXAMPLE : NOW QUESTION IS HOW THE SERVER KNOW TO WHICH APPPLICATION CLIENT IS WANT TO DO .APPLICATION LIKE (HTTPS,HTTP,SSG,IMAP,SMTP)?
 
 
+When connection is established client server can send data to each other .
 
 
+** The connection is full duplex connection.
 
+
+Transport layer connection 
+
+Every connection between client and server at the transport layer is estabilished between two port - source port and destination port .
 

@@ -705,7 +705,10 @@ CHECK SUM 16 BITS( BASED ON TCP HEADER ,TCP DATA EPHERMERAL IP HEADER .)
 OPTIONS +PADDING 32 BITS SECTION.
 
 
+UDP connection 
 
+here no  connection establishment required
+there is no state like established or listen stste for UDP socket . 
 
 
 

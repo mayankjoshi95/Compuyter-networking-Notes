@@ -707,7 +707,7 @@ OPTIONS +PADDING 32 BITS SECTION.
 
 UDP connection 
 
-here no  connection establishment required
+here no  connection establishment required segment are send directly.
 there is no state like established or listen stste for UDP socket . 
 
 

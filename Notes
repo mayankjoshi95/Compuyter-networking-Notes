@@ -497,6 +497,18 @@ default router LAN IP is dame as the IP of various devices in the network .
 Now the question is how devices connect with each other in the same network and if they want to send data they need to use router and how these default gateway workl in such case.
 
 
+ARP protocol (addresss resolution protocol )
+it is used to resolve the addresss.
+
+It is a network layer protocol .(Ether type 0x0806)
+doesnot use IPv4 header.
+This protocol is used for destination IP address to destination MAC address when some host want to send data to another host .
+
+ARP request from the source host is sent to broadcast MAC address.
+
+ARP response is sent unicast from destination host with target IP adress to source host .
+
+
 
 
 

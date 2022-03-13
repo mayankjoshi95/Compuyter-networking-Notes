@@ -617,9 +617,17 @@ Network Socket are host end point that is used for outgoing and incopming data a
 they want to proces some data and send the up to application layer of TCP/IP model.
 
 They have 5 parts 
-1.Transport protocol
+1.Transport protocol(TCP/UDP)
 2.source IP address
 3.Source Port
 4.Destination IP address
 5.Destination Port
 
+If there is client and server and client intiates connection to server 
+Then on server side you will find network socket where source Ip and port match to client IP address and clients PORT that was used for initiation of the connection.
+Destination IP address and Destiantion port match with that on the server side .
+
+on client side source ip and port are reversed.
+
+At every client and server there maybe multiple socket created at every moment of time .
+Socket can be removed dynamically dn added dynamically.

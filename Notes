@@ -684,6 +684,6 @@ TCP establishes connection at transport layer of TCP IP model .
 
 Process is called three way handshake connection esrtablishment 
 
-1. intitalizes  TCP session (sends the SYN i.e the synchronization )
-2.confirm TCP session and intitalization by sending SYN and ACK 
+1. intitalizes  TCP session (sends the SYN i.e the synchronization ) 
+2.confirm TCP session and intitalization by sending SYN and ACK BY THE SERVER 
 3.Finalize TCP session establishment by sending ACK flag.

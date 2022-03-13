@@ -540,3 +540,28 @@ In this case it will send its IP packets dedicated to this server to default rou
 
 **TCP/UDP 
 
+TRANSPORT LAYER
+
+ABOVE IT IS APPLICATION LAYER ON IT THERE COULD BE DIFFERENT APPLICATION LIKE (HTTPS,HTTP,SSG,IMAP,SMTP) and on every single host different can run simultaneously.
+and they communicate with transport layer and transport layer communcicate with other layer .
+
+Thus all those application needs to somehowuse transport layer .
+Transport layer is usually used to send and receive application data between different hosts .
+transport layer can send data either reliabily with connection estabilishment or unreliably without connection establishment .
+
+
+Clients vs Server
+
+When we talk about connection estabilishment between two different hosts on transport layer there are always two sides 
+1. estabilishes connection (CLIENT)
+2. acccept the connection.(SERVER)
+USUALLY MOBILE COMPUTER ARE CLIENTS ON OTHER END HOSTS THAT ALLOCATES IN INTERNET OVER SOME SERVICES LIKE WEB SERVICES ARE CALLED SERVERS AND THEY ACCEPTS INCOMING CONNECTION
+BUT OFCOURSE THOSE SERVER IN INTERNET INITIATE OTHER CONNNECTION .IN THOSE CASES THEY ACT AS CLIENT RELATED TO OTHER SERVERS.
+
+FOR EXAMPLE : NOW QUESTION IS HOW THE SERVER KNOW TO WHICH APPPLICATION CLIENT IS WANT TO DO .APPLICATION LIKE (HTTPS,HTTP,SSG,IMAP,SMTP)?
+
+
+
+
+
+

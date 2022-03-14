@@ -750,5 +750,13 @@ END TO END PACKET TRANSMISSION
 
 1.PC1 needs to find out where the destiantion IP address i.e PC2 is located its local address or not .It is done by doing AND operation between its mask and its and destiantion IP address and compare them .
 2.On network layer PC1 adds IP header with source IP 172.16.3.7 ,destiantion IP 192.168.1.15 and TTL 64.
-3.Before adding data link layer pc1 checks whether mac address of the default gateway is present there or not because when hosts wnat to send its data to the data network it will always send it to its default gateway
+3.Before adding data link layer pc1 checks whether mac address of the default gateway is present there or not because when hosts want to send its data to the data network it will always send it to its default gateway.
+to its MAC address.
+PC1 checks local ARP table to find the MAC address of the default gateway.
+4.On data link layer PC1 will add ethernet header (souurce MAC address is of PC1 na destiantion MAC addresss is the address of the default gateway.this destination MAC address it will take 
+from the ARP cache table and afterwards it will send ethernet frame over physical media .
+5.Switch 1 at data link layer receives ethernet frame form PC1 on switch 1 interface ,verifies FCS (if it is correct it accept the ethernet frame),check MAC address table to find where destination MAC is located 
+and finds it behind Gi1/1.
+6.
+
 

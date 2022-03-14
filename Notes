@@ -776,6 +776,14 @@ PC2.
 19 On the network layer PC2 checks the header check sum and TTL ,compares destination to its own Ip ,they are equal. Strips IPv4 header and segment to the transport layer for further processing.
 
 
+Static and dynamic routes 
+Static route is the route that is added into routing table manually .
+We access router either using web user interface command line and add route manually .
+three route 
+1`. connected route 
+2.static route 172.16.0.0/12 is accesible using 10.7.6.2
+3.Type O stands for OSPF .here we can do automatic exchange of route using different router .Dynamic route are obtained dynamically via dynamic routing prototcol .
+
 
 
 

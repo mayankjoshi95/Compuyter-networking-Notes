@@ -796,6 +796,16 @@ HOST IP ADDRESS IS AND WITH ROUTE MASK AND WE GET THE PREFIX AND IT IS MATCHED W
 IT IS KEPT AT THE END OF THE ROUTING TABLE .
 
 
+NETWORK ADDRESS TRANSLATION
+
+TWO APPLICATION LAYER PROTOCOL
+DHCP AND DNS 
+
+FOR proper communication every host in the computer network must have MAC address and IP address.Every host is located in specific subnetwork this means that host require 
+specific network mask or subnetwork mask .This means that IP address and subnet mask are manditory configuration  parameter for every host in computer network .
+
+if host wants to communicate with other computer in other network then such host need to have default gateway need to be configured.router always route packet to otehr network .
+if host wants to communicate other server with there name then we use address of the  DNS server .
 
 
 

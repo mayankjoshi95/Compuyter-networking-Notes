@@ -765,3 +765,22 @@ interface.
 10 Looking in the IPv4 header it sees desitnation address doesnot match with any of the IP address configured on router itself Thus router must resend it IP packet further
 11. Router checks the routing table to find the matching route for the destination address.For each route it applies network mask to the destination address
 and compares the result prefix.
+12.Assume that doesnot yet know about the MAC adddress of PC2 so it sends broadcast ARP request via its inteface Gi0/1 asking for the MAC address of the host .
+13 On hte network layer router decrement its TTL host by 1and calculate new IPv4 header check sum .
+14 Now to encapsulate further router adds new ethernet header and calculates FCS.Here source MAC adddress is that of the router and destination MAC adddress is that of the 
+PC2.
+15 Router sends Ethernet frame via Gi0/1 interface according to the  route in the routing table. Now this routiong packet has IPv4 header and the ethernet header with source and destination MAC addreses.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -733,6 +733,22 @@ ROUTER ARE RESPONSIBLE FOR ROUTING OF THE IP PACKETS TO THE DESTINATION NETWORKS
 
 EVERY SINGLE ROUTER HAS A ROUTING TABLE AND IT IS USED FOR ROUTING DECISION .
 
+** MAIN RESPONSIBILITY OF ROUTER IS TO BUILD ROUTING TABLE AND ROUTE IP PACKETS 
+
+ROUTING TABLE 
+ROUTERS KEEP ALL ROUTES TO THE KNOWN NETWORK IN THE ROUTING TABLE .
 
 
+For example : router has two different interfaces Gi0/0 and Gi0/1 one interface is connected to 172.16.3.0.24 and other to 192.168.1.0.24
+THu sethernbet frames are able to travel between one switch and one router and other switch and other router.
+
+In the routing table those routes willl be marked as connected routes 
+
+connected routes are routes to the network where routers own interfaces are attached have IP address mask and are up.It means that on giga bit 0/0 router may have following configuration setup.
+
+END TO END PACKET TRANSMISSION
+
+1.PC1 needs to find out where the destiantion IP address i.e PC2 is located its local address or not .It is done by doing AND operation between its mask and its and destiantion IP address and compare them .
+2.On network layer PC1 adds IP header with source IP 172.16.3.7 ,destiantion IP 192.168.1.15 and TTL 64.
+3.Before adding data link layer pc1 checks whether mac address of the default gateway is present there or not because when hosts wnat to send its data to the data network it will always send it to its default gateway
 

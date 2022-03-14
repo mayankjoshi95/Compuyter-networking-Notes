@@ -757,6 +757,11 @@ PC1 checks local ARP table to find the MAC address of the default gateway.
 from the ARP cache table and afterwards it will send ethernet frame over physical media .
 5.Switch 1 at data link layer receives ethernet frame form PC1 on switch 1 interface ,verifies FCS (if it is correct it accept the ethernet frame),check MAC address table to find where destination MAC is located 
 and finds it behind Gi1/1.
-6.
-
-
+6.Switch 1 adds MAC address of PC1 to  the MAC  address table to and maps it to the port first ethernet.
+7. Swtich 1 send it frame to its interface.
+8 Router receives Ethernet frame on its Gi0/0, on data link layer verifies FCS,checks the destination MAC address field and sees that MAC matches with MAC of its Gi0/0 
+interface.
+9.Router removes ethernet header and examine network layer IPv4 header and ,checks header checksum and TTL .Router has performed the decapsulation on the data link layeer
+10 Looking in the IPv4 header it sees desitnation address doesnot match with any of the IP address configured on router itself Thus router must resend it IP packet further
+11. Router checks the routing table to find the matching route for the destination address.For each route it applies network mask to the destination address
+and compares the result prefix.

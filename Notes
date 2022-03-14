@@ -715,6 +715,24 @@ there is no state like established or listen stste for UDP socket .
 UDP header contain
 1 Source port 
 2 Destination Port 
-3 Length 
-4 Checksum 
+3 Length (header +data)
+4 Checksum (Ephermeral header)(UDP header)(UDP Payload)
+
+
+FOR REAL TIME UDP PROTOCOL .
+
+
+switches operate on data link layer of TCP/IP model there single responsibility is to switch frame as fast as possible .
+router responsibilitites is to forward IP packets from source to destination 
+IP prototcol is connection less prototcol that means that every single IP packet or IP data gram is treated as seperately this means that multiple packet that ascend from one host to another host 
+may travel via diffeent path in the computer network .
+main reposibility of router is to route packet from one source to destination.
+
+
+ROUTER ARE RESPONSIBLE FOR ROUTING OF THE IP PACKETS TO THE DESTINATION NETWORKS
+
+EVERY SINGLE ROUTER HAS A ROUTING TABLE AND IT IS USED FOR ROUTING DECISION .
+
+
+
 

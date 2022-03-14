@@ -770,7 +770,10 @@ and compares the result prefix.
 14 Now to encapsulate further router adds new ethernet header and calculates FCS.Here source MAC adddress is that of the router and destination MAC adddress is that of the 
 PC2.
 15 Router sends Ethernet frame via Gi0/1 interface according to the  route in the routing table. Now this routiong packet has IPv4 header and the ethernet header with source and destination MAC addreses.
-
+16 Switch 2 receives ethernet frame from router on Gi1/2 interface ,verifies FCS ,checks MAC addresstable to find where destiantion MAC is located and finds it behind
+17 Switch 2 will send the ethernet frame to its interface .
+18 PC2 will receives ethernet frame on its own ehternet interface.verfies FCS ,compare destiantion MAC adddress to its own if they are equal then it removes the ethernet header .
+19 On the network layer PC2 checks the header check sum and TTL ,compares destination to its own Ip ,they are equal. Strips IPv4 header and segment to the transport layer for further processing.
 
 
 

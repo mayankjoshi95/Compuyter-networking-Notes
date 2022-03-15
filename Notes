@@ -812,4 +812,8 @@ DNS
 domain name system  
 it translates domain names to IP address.
 
+ why names are needed ?
+ Host must communicate using there IP adddresses
+either Ipv4 or IPv6 
+On transport layer host communicate with such protocol as TCP or UDP 
 

@@ -808,4 +808,8 @@ if host wants to communicate with other computer in other network then such host
 if host wants to communicate other server with there name then we use address of the  DNS server .
 
 
+DNS 
+domain name system  
+it translates domain names to IP address.
+
 

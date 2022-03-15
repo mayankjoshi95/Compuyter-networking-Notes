@@ -829,6 +829,17 @@ All resourcce in internet have ther own web adress or URL.
 URI is the identifier for the specific resource like book or movies .URI is subset of URL.
 for example 
 https://play.google.com/store/movies?ref=341
-https(protocol)://play(subdomain).google(domain).com(top level domain)/store/movies?ref=341
+https(protocol)://play(subdomain).google(domain).com(top level domain)(TLD)/store/movies?ref=341
 https://play.google(identifier for specific host in the internet )
+(store/movies) is the path for specific resource at this specific host .
+Domain+TLD is called root Domain.
+
+Ports and Fragment in URL 
+PORTS
+Ports after TLD could be used instead of default protocol port 
+https://my.website.com:4433
+FRAGMENT 
+URL fragment or anchor point to certain part of the resource 
+https://my.website.com #section5
+
 

@@ -824,4 +824,11 @@ Domain Name is the name that identifies specific host in the computer network li
 
 
 URL(uniform resource locator )
+Uniform identifier (web address) of the specific resource in the internet .
+All resourcce in internet have ther own web adress or URL.
+URI is the identifier for the specific resource like book or movies .URI is subset of URL.
+for example 
+https://play.google.com/store/movies?ref=341
+https(protocol)://play(subdomain).google(domain).com(top level domain)/store/movies?ref=341
+https://play.google(identifier for specific host in the internet )
 

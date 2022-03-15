@@ -842,4 +842,15 @@ FRAGMENT
 URL fragment or anchor point to certain part of the resource 
 https://my.website.com #section5
 
+https(protocol)://api(third level ) .website(second level).com(top level)
+https(protocol)://www(fourth level).amazon(third level) .co(second level).uk(top level).
+full qualified domain name (FQDN)part between // and /
+https://play.google.com/store/movies?ref=341
+
+
+DNS (domain name system)is basically backbone or core of internet
+Main resposibility of DNS is to resolve domain name or fully qualified domain names to IP addresses.
+
+For example consider the user has only hte domain name for example google .com  it doenot know IP address and on the network layer of TCP/IP model host require to know destination address in order to send packet .
+
 

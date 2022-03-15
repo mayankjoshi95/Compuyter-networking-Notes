@@ -813,7 +813,15 @@ domain name system
 it translates domain names to IP address.
 
  why names are needed ?
- Host must communicate using there IP adddresses
+1. Host must communicate using there IP adddresses
 either Ipv4 or IPv6 
-On transport layer host communicate with such protocol as TCP or UDP 
+2.On transport layer host communicate using such protocol as TCP or UDP
+Many different end user devices communicae with the same public servers(for ex google search server)(thus the public server need somehow wasily accesible for people )
+3. It is not convienient to memorize IP addresses ,especially IPv6 adress.
+
+
+Domain Name is the name that identifies specific host in the computer network like google .com ,facebook.com,netflix.com,apple.com.
+
+
+URL(uniform resource locator )
 
